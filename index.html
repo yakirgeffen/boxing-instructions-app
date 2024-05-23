@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Instructions App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Boxing Instructions App</h1>
+        <p id="instruction">Press 'Play' for instructions</p>
+        <button id="play-pause-button">Play</button>
+        <div class="pace-control">
+            <button id="minus-button">-</button>
+            <input type="number" id="bpm-input" value="30" min="5" max="60">
+            <button id="plus-button">+</button>
+            <label for="bpm-input">Pace (BPM)</label>
+        </div>
+        <div class="instruction-type">
+            <label><input type="checkbox" id="toggle-moves" checked> Moves</label>
+            <label><input type="checkbox" id="toggle-body-movements" checked> Body Movements</label>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
