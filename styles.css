@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('images/Muay_Thai_boxer.png') no-repeat center center fixed;
+    background: url('images/muay_thai_boxer.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@ label[for="bpm-input"] {
 
 /* Responsive design for mobile view */
 @media (max-width: 600px) {
-    .container {    
+    .container {
         padding: 20px;
     }
 
